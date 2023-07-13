@@ -1,0 +1,128 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AARA
+</name>
+</assembly>
+<members>
+<member name="T:AARA.AARADataSet.AdmindetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AARA.AARADataSet.AdmindetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AARA.AARADataSet.AdmindetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AARA.AARADataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:AARA.AARADataSetTableAdapters.AdmindetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:AARA.AARADataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(AARA.AARADataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:AARA.AARADataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(AARA.AARADataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:AARA.AARADataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(AARA.AARADataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:AARA.AARADataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:AARA.AARADataSetTableAdapters.TableAdapterManager.UpdateAll(AARA.AARADataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:AARA.AARADataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:AARA.AARADataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:AARA.AARADataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:AARA.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:AARA.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:AARA.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:AARA.AARADataSet1.prlistDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AARA.AARADataSet1.prlistRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AARA.AARADataSet1.prlistRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AARA.AARADataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:AARA.AARADataSet1TableAdapters.prlistTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:AARA.AARADataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(AARA.AARADataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:AARA.AARADataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(AARA.AARADataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:AARA.AARADataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(AARA.AARADataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:AARA.AARADataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:AARA.AARADataSet1TableAdapters.TableAdapterManager.UpdateAll(AARA.AARADataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:AARA.AARADataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:AARA.AARADataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:AARA.AARADataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

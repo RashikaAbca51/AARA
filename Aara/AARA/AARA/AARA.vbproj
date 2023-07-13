@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{66BAFC4D-AF85-4BBE-8B71-AEA5CBF10047}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>AARA.My.MyApplication</StartupObject>
+    <RootNamespace>AARA</RootNamespace>
+    <AssemblyName>AARA</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>AARA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>AARA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AARADataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AARADataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AARADataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AARADataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Admin HP.Designer.vb">
+      <DependentUpon>Admin HP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin HP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Card.Designer.vb">
+      <DependentUpon>Card.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Card.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Colorbar.Designer.vb">
+      <DependentUpon>Colorbar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Colorbar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compact.Designer.vb">
+      <DependentUpon>Compact.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Compact.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cream.Designer.vb">
+      <DependentUpon>Cream.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cream.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dior.Designer.vb">
+      <DependentUpon>Dior.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dior.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EyeMakeUp.Designer.vb">
+      <DependentUpon>EyeMakeUp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EyeMakeUp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fit me.Designer.vb">
+      <DependentUpon>Fit me.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fit me.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.vb">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.vb">
+      <DependentUpon>Form6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invoice.Designer.vb">
+      <DependentUpon>Invoice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="L%27OREAL.Designer.vb">
+      <DependentUpon>L%27OREAL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="L%27OREAL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lakme.Designer.vb">
+      <DependentUpon>Lakme.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Lakme.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lipstick.Designer.vb">
+      <DependentUpon>Lipstick.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Lipstick.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAC.Designer.vb">
+      <DependentUpon>MAC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MAC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mamaearth.Designer.vb">
+      <DependentUpon>mamaearth.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mamaearth.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maybelline.Designer.vb">
+      <DependentUpon>Maybelline.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maybelline.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Payment.Designer.vb">
+      <DependentUpon>Payment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popSugar.Designer.vb">
+      <DependentUpon>popSugar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="popSugar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductDetails.vb" />
+    <Compile Include="RareBeauty.Designer.vb">
+      <DependentUpon>RareBeauty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RareBeauty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Revlon.Designer.vb">
+      <DependentUpon>Revlon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Revlon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sugar.Designer.vb">
+      <DependentUpon>Sugar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sugar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Admin HP.resx">
+      <DependentUpon>Admin HP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Card.resx">
+      <DependentUpon>Card.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Colorbar.resx">
+      <DependentUpon>Colorbar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compact.resx">
+      <DependentUpon>Compact.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cream.resx">
+      <DependentUpon>Cream.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dior.resx">
+      <DependentUpon>Dior.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EyeMakeUp.resx">
+      <DependentUpon>EyeMakeUp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fit me.resx">
+      <DependentUpon>Fit me.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice.resx">
+      <DependentUpon>Invoice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="L%27OREAL.resx">
+      <DependentUpon>L%27OREAL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lakme.resx">
+      <DependentUpon>Lakme.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lipstick.resx">
+      <DependentUpon>Lipstick.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAC.resx">
+      <DependentUpon>MAC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mamaearth.resx">
+      <DependentUpon>mamaearth.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maybelline.resx">
+      <DependentUpon>Maybelline.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment.resx">
+      <DependentUpon>Payment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popSugar.resx">
+      <DependentUpon>popSugar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RareBeauty.resx">
+      <DependentUpon>RareBeauty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Revlon.resx">
+      <DependentUpon>Revlon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sugar.resx">
+      <DependentUpon>Sugar.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AARADataSet.xsc">
+      <DependentUpon>AARADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AARADataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AARADataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AARADataSet.xss">
+      <DependentUpon>AARADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AARADataSet1.xsc">
+      <DependentUpon>AARADataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="AARADataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AARADataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AARADataSet1.xss">
+      <DependentUpon>AARADataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database1.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database1_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

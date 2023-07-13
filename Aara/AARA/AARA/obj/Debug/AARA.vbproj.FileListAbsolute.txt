@@ -1,0 +1,86 @@
+C:\Users\banui\AppData\Local\Temporary Projects\AARA\bin\Debug\AARA.exe.config
+C:\Users\banui\AppData\Local\Temporary Projects\AARA\bin\Debug\AARA.exe
+C:\Users\banui\AppData\Local\Temporary Projects\AARA\bin\Debug\AARA.pdb
+C:\Users\banui\AppData\Local\Temporary Projects\AARA\bin\Debug\AARA.xml
+C:\Users\banui\AppData\Local\Temporary Projects\AARA\obj\Debug\AARA.Form1.resources
+C:\Users\banui\AppData\Local\Temporary Projects\AARA\obj\Debug\AARA.Resources.resources
+C:\Users\banui\AppData\Local\Temporary Projects\AARA\obj\Debug\AARA.vbproj.GenerateResource.Cache
+C:\Users\banui\AppData\Local\Temporary Projects\AARA\obj\Debug\AARA.exe
+C:\Users\banui\AppData\Local\Temporary Projects\AARA\obj\Debug\AARA.xml
+C:\Users\banui\AppData\Local\Temporary Projects\AARA\obj\Debug\AARA.pdb
+C:\Users\banui\AppData\Local\Temporary Projects\AARA\obj\Debug\AARA.Form2.resources
+C:\Users\banui\AppData\Local\Temporary Projects\AARA\obj\Debug\AARA.Form3.resources
+C:\Users\banui\OneDrive\Desktop\Aara\AARA\AARA\bin\Debug\AARA.exe.config
+C:\Users\banui\OneDrive\Desktop\Aara\AARA\AARA\obj\Debug\AARA.exe
+C:\Users\banui\OneDrive\Desktop\Aara\AARA\AARA\obj\Debug\AARA.xml
+C:\Users\banui\OneDrive\Desktop\Aara\AARA\AARA\obj\Debug\AARA.pdb
+C:\Users\banui\OneDrive\Desktop\Aara\AARA\AARA\bin\Debug\AARA.exe
+C:\Users\banui\OneDrive\Desktop\Aara\AARA\AARA\bin\Debug\AARA.pdb
+C:\Users\banui\OneDrive\Desktop\Aara\AARA\AARA\bin\Debug\AARA.xml
+C:\Users\banui\OneDrive\Desktop\Aara\AARA\AARA\obj\Debug\AARA.Form1.resources
+C:\Users\banui\OneDrive\Desktop\Aara\AARA\AARA\obj\Debug\AARA.Form2.resources
+C:\Users\banui\OneDrive\Desktop\Aara\AARA\AARA\obj\Debug\AARA.Form3.resources
+C:\Users\banui\OneDrive\Desktop\Aara\AARA\AARA\obj\Debug\AARA.Resources.resources
+C:\Users\banui\OneDrive\Desktop\Aara\AARA\AARA\obj\Debug\AARA.vbproj.GenerateResource.Cache
+C:\Users\banui\OneDrive\Desktop\Aara\AARA\AARA\obj\Debug\AARA.Form4.resources
+F:\AARA DOC\Aara\AARA\AARA\bin\Debug\AARA.exe.config
+F:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.exe
+F:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.xml
+F:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.pdb
+F:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Form1.resources
+F:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Form2.resources
+F:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Form3.resources
+F:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Form4.resources
+F:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Resources.resources
+F:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.vbproj.GenerateResource.Cache
+C:\AARA DOC\Aara\AARA\AARA\bin\Debug\AARA.exe.config
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.exe
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.xml
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.pdb
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Form1.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Form4.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Resources.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.vbproj.GenerateResource.Cache
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Form5.resources
+C:\AARA DOC\Aara\AARA\AARA\bin\Debug\Database1.mdf
+C:\AARA DOC\Aara\AARA\AARA\bin\Debug\Database1_log.ldf
+C:\AARA DOC\Aara\AARA\AARA\bin\Debug\AARA.exe
+C:\AARA DOC\Aara\AARA\AARA\bin\Debug\AARA.pdb
+C:\AARA DOC\Aara\AARA\AARA\bin\Debug\AARA.xml
+D:\AARA DOC\Aara\AARA\AARA\bin\Debug\AARA.exe.config
+D:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.exe
+D:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.xml
+D:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.pdb
+D:\AARA DOC\Aara\AARA\AARA\bin\Debug\Database1.mdf
+D:\AARA DOC\Aara\AARA\AARA\bin\Debug\Database1_log.ldf
+D:\AARA DOC\Aara\AARA\AARA\bin\Debug\AARA.exe
+D:\AARA DOC\Aara\AARA\AARA\bin\Debug\AARA.pdb
+D:\AARA DOC\Aara\AARA\AARA\bin\Debug\AARA.xml
+D:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Form1.resources
+D:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Form2.resources
+D:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Form3.resources
+D:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Form4.resources
+D:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Form5.resources
+D:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Resources.resources
+D:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.vbproj.GenerateResource.Cache
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Lipstick.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Lakme.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Sugar.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.EyeMakeUp.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.MAC.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Cream.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Maybelline.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Colorbar.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Dior.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Fit_me.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.LOREAL.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Payment.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Revlon.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Compact.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.mamaearth.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.popSugar.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.RareBeauty.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Card.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Invoice.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.Admin_HP.resources
+C:\AARA DOC\Aara\AARA\AARA\obj\Debug\AARA.HomePage.resources
